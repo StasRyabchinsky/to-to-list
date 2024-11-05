@@ -1,0 +1,37 @@
+.taskListContainer {
+    height: 200vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    // background-color: rgba(0, 0, 0, 0.4);
+    // background-image: url('../assets/img/leaves-5598709_960_720.webp');
+    
+
+    .taskList {
+        margin: 100px auto;
+
+        h3 {
+            text-align: center;
+            color: #fff;
+            opacity: 1;
+        }
+
+        .taskItem {
+            color: black;
+            margin-top: 20px;
+            padding: 10px;
+            width: 400px;
+            height: auto;
+            background-color: #fff;
+            border: 1px solid black;
+            border-radius: 10px;
+
+            span {
+                color: rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+}

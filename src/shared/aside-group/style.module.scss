@@ -1,0 +1,16 @@
+.asideGroup {
+    height: 100%;
+    padding: 25px;
+    border: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: inherit;
+    background-color: rgba(0, 0, 0, 0.4);
+    // cursor: pointer;
+}
+.asideBottomSpace {
+    flex-shrink: 0;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.4);
+}

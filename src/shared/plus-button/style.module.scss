@@ -1,0 +1,50 @@
+.addAction {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+
+    transition: 1s;
+    transform: scale(1) rotate(-90deg);
+    
+    .plus {
+        position:absolute;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+    }
+
+    .plus:nth-child(2) {
+        rotate: 90deg;
+    }
+}
+.activeAddAction {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+
+    transition: 1s ease;
+    transform: scale(1.2) rotate(90deg);
+
+    .plus {
+        position:absolute;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+    }
+
+    .plus:nth-child(2) {
+        rotate: 90deg;
+    }
+}

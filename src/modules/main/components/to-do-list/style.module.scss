@@ -1,0 +1,16 @@
+.page {
+    position: relative;
+    background-image: url('../../../../assets/img/leaves-5598709_960_720.webp');
+    min-height: 100vh;
+    // object-fit: cover;
+
+    .main {
+        // position: relative;
+        width: 100%;
+        height: 100%;
+    
+        display: flex;
+        flex-direction: row;
+    }
+}
+
